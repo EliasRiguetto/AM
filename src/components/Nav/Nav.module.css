@@ -1,0 +1,16 @@
+.nav ul{
+   display: flex; 
+   gap: 4rem;
+   li a{
+    border-bottom: 2px solid transparent;
+   }
+   a{
+    display: block;
+    color: var(--gray-500);
+    font-size: 1.8rem;
+   }
+   li a:hover{
+    border-bottom: 2px solid var(--primary-color);
+    transition: ease-in-out .4s;
+   }
+}

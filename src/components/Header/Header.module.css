@@ -1,0 +1,11 @@
+.header {
+  height: 11rem;
+  /* position: fixed; */
+
+}
+.headerContent{
+    display: flex;
+     height: 11rem;
+    align-items: center;
+    justify-content: space-between;
+}
