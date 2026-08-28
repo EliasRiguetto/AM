@@ -14,3 +14,11 @@
     transition: ease-in-out .4s;
    }
 }
+
+.nav2 ul{
+   display: flex;
+   flex-direction: column;
+   a{
+      color: var(--primary-color);
+   }
+}
