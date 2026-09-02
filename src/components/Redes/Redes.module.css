@@ -1,4 +1,25 @@
-.redes ul{
+.redes ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+
+  li {
     display: flex;
-    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+  }
+  li a {
+    color: var(--bg-color);
+    display: block;
+    font-weight: 300;
+  }
+  li a:hover{
+    color: var(--primary-color);
+    transition: all .4s ease-in-out;
+  }
+  svg {
+    width: 2.4rem;
+    height: 2.4rem;
+    color: var(--primary-color);
+  }
 }

@@ -1,11 +1,15 @@
 import logo from "../../images/logo.svg";
+import logoFooter from "../../images/logo_footer.svg";
 
-export const Logo = () => {
+export const Logo = ({ variant = "default" }) => {
+  const logos = {
+    default: logo,
+    footer: logoFooter,
+  };
+
   return (
-    <div>
-      <a href="/">
-        <img src={logo} alt="Logo" />
-      </a>
-    </div>
+    <a href="/">
+      <img src={logos[variant]} alt="Logo" />
+    </a>
   );
 };
