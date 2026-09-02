@@ -69,12 +69,11 @@
 
 /* Imagem */
 
-.slideImage {
+.slide {
   width: 100%;
   height: 100%;
-  user-select: none;
-  -webkit-user-drag: none;
   animation: fade 0.5s ease-in-out;
+  user-select: none;
 }
 
 /* Animação */

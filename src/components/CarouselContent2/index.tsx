@@ -1,0 +1,1 @@
+export {CarouselContent2} from "./CarouselContent2";
