@@ -1,15 +1,15 @@
 import "./styles/variables.css";
 import "./styles/global.css";
+import { Layout } from "./components/Layout/Layout";
+import { Carousel } from "./components/Carousel";
+import { CarouselContent } from "./components/CarouselContent";
 // import { Container } from "./components/Container";
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
-
 
 export function App() {
   return (
-    <>
-    <Header/>
-    <Footer/>
-    </>
-  )
+    <Layout>
+      <Carousel/>
+      <CarouselContent/>
+    </Layout>
+  );
 }
