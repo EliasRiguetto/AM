@@ -1,6 +1,7 @@
 .carouselContent {
   display: flex;
   align-items: center;
+  margin-top: 8rem;
   h1 {
     font-size: 6.8rem;
     font-family: "OPTI";
@@ -16,5 +17,6 @@
   }
   p {
         color: var(--text-default);
+            margin-bottom:2.4rem;
   }
 }

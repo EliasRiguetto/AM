@@ -1,7 +1,8 @@
 import React from "react";
 import { Container } from "../Container";
 import image from "../../images/image.png";
-import styles from "./CarolselContent.module.css"
+import styles from "./CarolselContent.module.css";
+import { Button } from "../Button";
 
 export const CarouselContent = () => {
   return (
@@ -15,7 +16,9 @@ export const CarouselContent = () => {
               Soluções jurídicas personalizadas para proteger seus direitos e
               oferecer segurança em cada decisão.
             </p>
-            <button>Enviar</button>
+            <Button color="primary" size="large">
+              Fale Conosco
+            </Button>
           </div>
           <div>
             <img src={image} alt="" />
