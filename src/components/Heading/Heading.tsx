@@ -2,11 +2,14 @@ import React from 'react'
 import styles from "./Heading.module.css";
 
 type HeadingProps = {
-    title: String;
+    title: string;
+    className?: string;
 }
 
-export const Heading = ({title}: HeadingProps) => {
-  return (
-    <h1 className={styles.heading}>{title}</h1>
-  )
+export const Heading = ({ title, className }: HeadingProps) => {
+    return (
+        <h1 className={`${styles.heading} ${className ?? ''}`}>
+            {title}
+        </h1>
+    )
 }
