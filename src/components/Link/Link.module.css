@@ -1,0 +1,13 @@
+.link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    color: var(--link-color);
+    font-weight: 500;
+    font-size: 2rem;
+&:hover{
+   color: var(--link-hover)
+}
+}
+
