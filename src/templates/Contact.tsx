@@ -4,6 +4,8 @@ import { Heading } from "../components/Heading";
 import { BgImage } from "../components/BgImage/BgImage";
 import { Flex } from "./../components/FlexCenter";
 import { Form } from "./../components/Form";
+import { Redes } from "../components/Redes";
+import { Section } from "./../components/Section";
 
 export const Contact = () => {
   return (
@@ -16,9 +18,13 @@ export const Contact = () => {
         </Container>
       </BgImage>
       <Container>
-        <Flex gap={'6rem'} justify="space-around">
-            <h1>olá</h1>
-            <h1>Mundo</h1>
+        <Flex gap={"6rem"} justify="space-around">
+          <Section>
+            <Form />
+          </Section>
+          <Section>
+            <Redes variant="dark" />
+          </Section>
         </Flex>
       </Container>
     </section>

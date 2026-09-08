@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./Redes.module.css";
 import { FaInstagram, FaWhatsapp, FaRegEnvelope  } from "react-icons/fa";
 
-export const Redes = () => {
+export const Redes = ({variant = "default"}) => {
   return (
-    <div className={styles.redes}>
+    <div  className={`${styles.redes} ${styles[variant]}`}>
       <ul>
         <li>
           <FaRegEnvelope />
@@ -22,3 +22,5 @@ export const Redes = () => {
     </div>
   );
 };
+
+

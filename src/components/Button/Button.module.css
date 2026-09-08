@@ -16,11 +16,13 @@
 
 
 .medium {
-  padding: 1rem 2.4rem !important;
+  padding: 1.2rem 0!important;
   font-size: 16px !important;
+  width: 50%;
 }
 
 .large {
-  padding: 1.2rem 4.8rem !important;
+  padding: 1.2rem 0 !important;
   font-size: 2rem !important;
+  width: 100%;
 }

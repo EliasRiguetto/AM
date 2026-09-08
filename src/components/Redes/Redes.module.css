@@ -23,3 +23,7 @@
     color: var(--primary-color);
   }
 }
+
+.redes.dark ul li a {
+  color: var(--gray-400);
+}
