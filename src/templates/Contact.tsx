@@ -4,7 +4,7 @@ import { Heading } from "../components/Heading";
 import { BgImage } from "../components/BgImage/BgImage";
 import { Flex } from "./../components/FlexCenter";
 import { Form } from "./../components/Form";
-import { Redes } from "../components/Redes";
+import { Social } from "../components/SocialMedia";
 import { Section } from "./../components/Section";
 
 export const Contact = () => {
@@ -23,7 +23,7 @@ export const Contact = () => {
             <Form />
           </Section>
           <Section>
-            <Redes variant="dark" />
+            <Social variant="dark" />
           </Section>
         </Flex>
       </Container>

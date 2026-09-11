@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Redes.module.css";
+import styles from "./Social.module.css";
 import { FaInstagram, FaWhatsapp, FaRegEnvelope  } from "react-icons/fa";
 
-export const Redes = ({variant = "default"}) => {
+export const Social = ({variant = "default"}) => {
   return (
     <div  className={`${styles.redes} ${styles[variant]}`}>
       <ul>

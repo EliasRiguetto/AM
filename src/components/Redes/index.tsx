@@ -1,1 +1,0 @@
-export {Redes} from "./Redes";

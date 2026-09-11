@@ -1,7 +1,6 @@
 .heading {
     font-family: 'OPTI';
     font-size: 6.4rem;
-    color: var(--gray-300);
     display: inline-block;
 
     &::after {
@@ -12,4 +11,12 @@
         border-radius: 25%;
         display: block;
     }
+}
+
+.light {
+    color: var(--gray-300);
+}
+
+.dark {
+    color: var(--primary-color);
 }

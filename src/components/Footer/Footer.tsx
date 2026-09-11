@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 import { Container } from "./../Container";
 import { Logo } from "./../Logo";
 import { Nav } from "./../Nav";
-import { Redes } from "./../Redes";
+import { Social } from "../SocialMedia";
 import { Copyright } from "../Copyright/Copyright";
 
 export const Footer = () => {
@@ -14,7 +14,7 @@ export const Footer = () => {
           <div className={styles.footerContent}>
             <Logo variant="footer" />
             <Nav variant="footer" />
-            <Redes />
+            <Social />
           </div>
         </Container>
       </footer>
