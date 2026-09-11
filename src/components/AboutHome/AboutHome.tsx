@@ -3,7 +3,7 @@ import styles from "./AboutHome.module.css";
 import about_image from "./../../images/about_image.png";
 import { Heading } from "../Heading";
 import { Container } from "./../Container";
-import { Link} from "./../Link";
+import { LearnMore } from "../LearnMore";
 
 export const AboutHome = () => {
   return (
@@ -37,7 +37,7 @@ export const AboutHome = () => {
               desenvolver seus negócios de forma sustentável.
             </p>
           </div>
-          <Link className={styles.aboutLink} />
+          <LearnMore to="/sobre" className={styles.aboutLink} />
         </div>
       </section>
     </Container>
