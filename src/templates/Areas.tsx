@@ -14,7 +14,7 @@ export const Areas = () => {
       <BgImage>
         <Container>
           <Flex align="center" justify="center">
-            <Heading title="Áreas de Atuação"  />
+            <Heading title="Áreas de Atuação" variant="dark" />
           </Flex>
         </Container>
       </BgImage>

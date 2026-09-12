@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 6rem 0;
     gap: 2.4rem;
     ul{
         display: flex;

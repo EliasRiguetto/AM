@@ -5,10 +5,11 @@ import { Heading } from "../Heading";
 import { Card } from "../CardArea";
 import { LearnMore } from "../LearnMore";
 import { FileIcon, FileUserIcon, HouseIcon, UsersIcon } from "lucide-react";
+import { Section } from "../Section";
 
 export const Area = () => {
   return (
-    <section>
+    <Section>
       <Container>
         <div className={styles.area}>
           <Heading title="Áreas de Atuação" />
@@ -59,6 +60,6 @@ export const Area = () => {
           <LearnMore to="/areas" />
         </div>
       </Container>
-    </section>
+    </Section>
   );
 };

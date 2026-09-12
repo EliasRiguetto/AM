@@ -1,7 +1,6 @@
 .about{
     display: flex;
     gap: 6rem;
-    padding: 6rem 0;
 }
 .aboutText {
     display: flex;

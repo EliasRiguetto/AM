@@ -12,8 +12,8 @@ export const Contact = () => {
     <section>
       <BgImage>
         <Container>
-          <Flex align="center" justify="flex-start" direction="row">
-            <Heading title="Contato" />
+          <Flex align="center" justify="center" >
+            <Heading title="Contato" variant="dark" />
           </Flex>
         </Container>
       </BgImage>

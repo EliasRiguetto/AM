@@ -1,6 +1,6 @@
 .values {
   background-color: var(--gray-500);
-  padding: 6rem 0;
+  padding: 8rem 0;
 }
 .valuesContent {
   display: flex;
