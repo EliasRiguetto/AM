@@ -16,7 +16,7 @@ export const CarouselContent = () => {
               Soluções jurídicas personalizadas para proteger seus direitos e
               oferecer segurança em cada decisão.
             </p>
-            <Button color="primary" size="medium">
+            <Button color="primary" size="medium" to="/contato">
               Fale Conosco
             </Button>
           </div>

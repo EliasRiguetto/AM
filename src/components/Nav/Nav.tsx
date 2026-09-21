@@ -14,7 +14,7 @@ export const Nav = ({ variant = "default" }) => {
         </li>
 
         <li>
-          <Link to="/areas">Área de Atuação</Link>
+          <Link to="/areas">Áreas de Atuação</Link>
         </li>
 
         <li>
