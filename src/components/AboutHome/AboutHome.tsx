@@ -18,8 +18,7 @@ export const AboutHome = () => {
             <Heading title="Sobre" className={styles.aboutHeading} />
             <div>
               <p>
-                O Alberto Marques Advocacia atua na assessoria e consultoria
-                jurídica de empresas e empresários, oferecendo soluções
+                A AM Advocacia atua na assessoria e consultoria jurídica de empresas e pessoas físicas, oferecendo soluções
                 personalizadas para decisões mais seguras e estratégicas.
               </p>
               <p>

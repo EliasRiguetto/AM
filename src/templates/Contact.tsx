@@ -6,11 +6,12 @@ import { Flex } from "./../components/FlexCenter";
 import { Form } from "./../components/Form";
 import { Social } from "../components/SocialMedia";
 import { Section } from "./../components/Section";
+import imageBG from "../images/contact_bg.jpg"
 
 export const Contact = () => {
   return (
     <section>
-      <BgImage>
+      <BgImage src={imageBG}>
         <Container>
           <Flex align="center" justify="center" >
             <Heading title="Contato" variant="dark" />

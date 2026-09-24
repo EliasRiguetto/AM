@@ -2,12 +2,16 @@ import React from 'react'
 import styles from './BgImage.module.css';
 
 type BgImageProps = {
-    children: React.ReactNode
+    src: string;
+    children: React.ReactNode;
 }
 
-export const BgImage = ({children}:BgImageProps) => {
+export const BgImage = ({ src, children }: BgImageProps) => {
   return (
-    <div className={styles.bgImage}>
+    <div 
+      className={styles.bgImage} 
+      style={{ backgroundImage: `url(${src})` }}
+    >
         {children}
     </div>
   )
