@@ -9,7 +9,7 @@
     align-items: center;
   }
   li a {
-    color: var(--bg-color);
+    color: var(--white);
     display: block;
     font-weight: 300;
   }

@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 60rem;
+  position: relative;
+}
+.imageContent {
+  width: 46rem;
+  position: absolute;
+  left: 16rem;
+  z-index: 100;
+  img{
+      border-radius: 0.8rem;
+  }
+
+}
+.textContent {
+  border-radius: 0.8rem;
+  position: absolute;
+  width: 52rem;
+  min-height: 58rem;
+  top: -6rem;
+  left: 54rem;
+  background-color: var(--gray-500);
+  color: var(--text-color);
+  padding: 6rem 2rem 2rem 14rem;
+  h1{
+    color: var(--white);
+    font-family: "OPTI" ;
+    font-size: 6rem;
+
+  }
+
+}
+.space {
+  padding-top: 0.1rem;
+}

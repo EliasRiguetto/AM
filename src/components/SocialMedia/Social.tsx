@@ -12,7 +12,7 @@ export const Social = ({variant = "default"}) => {
         </li>
         <li>
           <FaWhatsapp />
-          <a href="">11 97173-4754</a>
+          <a href="https://wa.me/5511971734754?text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es.">11 97173-4754</a>
         </li>
         <li>
           <FaInstagram />

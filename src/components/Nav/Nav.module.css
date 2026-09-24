@@ -32,7 +32,7 @@
   gap: 1rem;
 
   li a {
-    color: var(--bg-color);
+    color: var(--white);
         font-weight: 300;
   }
   li a::after {

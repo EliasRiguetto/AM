@@ -5,15 +5,19 @@ import { Heading } from "../Heading";
 import { Container } from "./../Container";
 import { LearnMore } from "../LearnMore";
 import { Section } from "./../Section";
+import { Reveal } from "../Reveal";
 
 export const AboutHome = () => {
   return (
     <Section>
       <Container>
         <div className={styles.about}>
+          <Reveal direction="left">
           <div>
             <img src={about_image} alt="" />
           </div>
+          </Reveal>
+          <Reveal direction="right">
           <div className={styles.aboutText}>
             <Heading title="Sobre" className={styles.aboutHeading} />
             <div>
@@ -40,6 +44,7 @@ export const AboutHome = () => {
             </div>
             <LearnMore to="/sobre" className={styles.aboutLink} />
           </div>
+          </Reveal>
         </div>
       </Container>
     </Section>

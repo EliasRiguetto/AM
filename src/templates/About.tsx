@@ -5,6 +5,7 @@ import { Flex } from "../components/FlexCenter";
 import { Heading } from "../components/Heading";
 import { Section } from "../components/Section";
 import imageBG from "../images/about_bg.jpg";
+import { AboutMe } from "../components/AboutMe";
 
 export const About = () => {
   return (
@@ -18,7 +19,7 @@ export const About = () => {
       </BgImage>
       <Section>
         <Container>
-            <h1>olá mundo</h1>
+            <AboutMe/>
         </Container>
       </Section>
     </>

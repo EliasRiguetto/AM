@@ -9,9 +9,7 @@ export const Home = () => {
     <>
       <Carousel />
 
-      <Reveal direction="left">
-        <AboutHome />
-      </Reveal>
+      <AboutHome />
 
       <Reveal direction="right">
         <Values />
