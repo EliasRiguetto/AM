@@ -28,3 +28,10 @@
 .card:first-child {
   border-left: none;
 }
+
+
+@media (max-width: 768px) {
+  .card{
+    border-left: none;
+  }
+}

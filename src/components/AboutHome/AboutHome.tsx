@@ -13,37 +13,38 @@ export const AboutHome = () => {
       <Container>
         <div className={styles.about}>
           <Reveal direction="left">
-          <div>
-            <img src={about_image} alt="" />
-          </div>
+            <div>
+              <img src={about_image} alt="" className={styles.aboutImg} />
+            </div>
           </Reveal>
           <Reveal direction="right">
-          <div className={styles.aboutText}>
-            <Heading title="Sobre" className={styles.aboutHeading} />
-            <div>
-              <p>
-                A AM Advocacia atua na assessoria e consultoria jurídica de empresas e pessoas físicas, oferecendo soluções
-                personalizadas para decisões mais seguras e estratégicas.
-              </p>
-              <p>
-                Nossa atuação combina conhecimento técnico, visão empresarial e
-                atendimento próximo, com o objetivo de compreender cada negócio
-                e oferecer soluções jurídicas eficientes, objetivas e alinhadas
-                aos seus objetivos.
-              </p>
-              <p>
-                Pautados pela ética, confiança, transparência e excelência,
-                buscamos construir relações de longo prazo e atuar como
-                parceiros estratégicos de nossos clientes.
-              </p>
-              <p>
-                Mais do que prestar serviços jurídicos, contribuímos para que
-                empresas possam crescer, tomar decisões com segurança e
-                desenvolver seus negócios de forma sustentável.
-              </p>
+            <div className={styles.aboutText}>
+              <Heading title="Sobre" className={styles.aboutHeading} />
+              <div>
+                <p>
+                  A AM Advocacia atua na assessoria e consultoria jurídica de
+                  empresas e pessoas físicas, oferecendo soluções personalizadas
+                  para decisões mais seguras e estratégicas.
+                </p>
+                <p>
+                  Nossa atuação combina conhecimento técnico, visão empresarial
+                  e atendimento próximo, com o objetivo de compreender cada
+                  negócio e oferecer soluções jurídicas eficientes, objetivas e
+                  alinhadas aos seus objetivos.
+                </p>
+                <p>
+                  Pautados pela ética, confiança, transparência e excelência,
+                  buscamos construir relações de longo prazo e atuar como
+                  parceiros estratégicos de nossos clientes.
+                </p>
+                <p>
+                  Mais do que prestar serviços jurídicos, contribuímos para que
+                  empresas possam crescer, tomar decisões com segurança e
+                  desenvolver seus negócios de forma sustentável.
+                </p>
+              </div>
+                <LearnMore to="/sobre" className={styles.aboutLink} />
             </div>
-            <LearnMore to="/sobre" className={styles.aboutLink} />
-          </div>
           </Reveal>
         </div>
       </Container>

@@ -1,0 +1,12 @@
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+@media (max-width: 768px) {
+.contato {
+    flex-direction: column;
+    gap: 4rem;
+}
+}

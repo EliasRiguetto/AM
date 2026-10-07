@@ -27,3 +27,9 @@
 .redes.dark ul li a {
   color: var(--gray-400);
 }
+
+@media (max-width: 840px) {
+  .redes li a{
+    font-size: 1.6rem;
+  }
+}

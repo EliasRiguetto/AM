@@ -6,6 +6,7 @@ import { Heading } from "../components/Heading";
 import { Section } from "../components/Section";
 import imageBG from "../images/about_bg.jpg";
 import { AboutMe } from "../components/AboutMe";
+import { Reveal } from "../components/Reveal";
 
 export const About = () => {
   return (
@@ -13,13 +14,15 @@ export const About = () => {
       <BgImage src={imageBG}>
         <Container>
           <Flex align="center" justify="center">
-            <Heading title="Sobre" variant="dark"/>
+            <Reveal direction="up">
+              <Heading title="Sobre" variant="dark" />
+            </Reveal>
           </Flex>
         </Container>
       </BgImage>
       <Section>
         <Container>
-            <AboutMe/>
+          <AboutMe />
         </Container>
       </Section>
     </>

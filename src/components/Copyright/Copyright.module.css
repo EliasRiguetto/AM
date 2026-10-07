@@ -1,6 +1,12 @@
-.copy{
-    text-align: center;
-    padding: 2rem 0;
-    color: var(--gray-500);
-    font-size: 1.4rem;
+.copy {
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--gray-500);
+  font-size: 1.4rem;
+}
+
+@media (max-width: 576px) {
+  .copy {
+    font-size: 1.2rem;
+  }
 }

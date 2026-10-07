@@ -13,7 +13,9 @@ export const Footer = () => {
         <Container>
           <div className={styles.footerContent}>
             <Logo variant="footer" />
-            <Nav variant="footer" />
+            <div className={styles.nav}>
+              <Nav variant="footer" />
+            </div>
             <Social />
           </div>
         </Container>

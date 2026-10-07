@@ -26,7 +26,7 @@ export const Areas = () => {
       <BgImage src={imageBg}>
         <Container>
           <Flex align="center" justify="center">
-            <Reveal direction="down">
+            <Reveal direction="up">
               <Heading title="Áreas de Atuação" variant="dark" />
             </Reveal>
           </Flex>

@@ -10,7 +10,7 @@ import { CarouselContent3 } from "../CarouselContent3";
 const slides = [
   CarouselContent,
   CarouselContent2,
-  CarouselContent3,
+  // CarouselContent3,
 ];
 
 export const Carousel = () => {
@@ -32,13 +32,14 @@ export const Carousel = () => {
   };
 
   // Autoplay
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 100000);
+useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  }, 77000);
 
-    return () => clearInterval(interval);
-  }, []);
+  return () => clearInterval(interval);
+}, [currentSlide]);
+
 
   // Início do swipe
   const handlePointerDown = (e: { pointerType: string; button: number; clientX: number; }) => {

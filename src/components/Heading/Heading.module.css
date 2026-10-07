@@ -20,3 +20,9 @@
 .dark {
     color: var(--primary-color);
 }
+
+@media (max-width: 576px) {
+    .heading{
+        font-size: 4.8rem
+    }
+}
